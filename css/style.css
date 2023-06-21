@@ -1,7 +1,13 @@
+/* generics */
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img{
@@ -77,6 +83,7 @@ a {
     margin-right: 15px;
     margin-top: 40px;
 }
+
 
 .card-media{
     position: relative;
@@ -158,3 +165,12 @@ footer .container h2{
 .card-media:hover .first-img{
     z-index: 1;
 }
+
+.card-media:hover .discount,.sustainability,.sustainability-1,.hearts{
+    z-index: 1;
+}
+
+.hearts:hover{
+    color: red;
+}
+

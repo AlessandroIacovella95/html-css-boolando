@@ -59,7 +59,9 @@ header{
 }
  
 .card {
-    max-width: calc(100% / 3);
+    max-width: calc(100% / 3 - 15px);
+    margin-right: 15px;
+    margin-top: 40px;
 }
 
 .card-media{

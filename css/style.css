@@ -32,6 +32,15 @@ img{
 header{
     background-color: #FF6900;
     color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+main{
+    margin-top: 79px;
 }
 
 footer{

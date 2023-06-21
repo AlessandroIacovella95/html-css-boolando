@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.debug{
+    border: 1px dashed black;
+}
+
+.flex{
+    display: flex;
+}
+
+.header-container{
+    max-width:1180px ;
+    margin: auto;
+}
+.justify-around{
+    justify-content: space-around;
+}
+
+
+header{
+    background-color: #FF6900;
+}
+
+.menù{
+    margin: auto 0;
+}
+
+.menù a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+
+.logo{
+    width: 200px;
+    padding: 15px 0;
+}
+
+.icon{
+    margin: auto 0;
+}
+
+.icon > i{
+    color: white;
+    padding: 0 10px;
+}

@@ -16,12 +16,17 @@ img{
     display: flex;
 }
 
-.header-container{
+.wrap{
+    flex-wrap: wrap;
+}
+
+.container{
     max-width:1180px ;
     margin: auto;
 }
-.justify-around{
-    justify-content: space-around;
+
+.justify-between{
+    justify-content: space-between;
 }
 
 
@@ -36,7 +41,7 @@ header{
 .menù a {
     text-decoration: none;
     color: white;
-    padding: 0 15px;
+    padding-right: 10px;
 }
 
 .logo{
@@ -50,5 +55,50 @@ header{
 
 .icon > i{
     color: white;
+    padding: 0 5px;
+}
+ 
+.card {
+    max-width: calc(100% / 3);
+}
+
+.card-media{
+    position: relative;
+}
+
+.discount-price{
+    font-weight: bold;
+    color: red;
+}
+
+.price{
+    text-decoration: line-through;
+}
+
+.discount{
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+}
+
+.sustainability{
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+}
+
+.hearts{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background-color: white;
     padding: 0 10px;
+    font-size: 25px;
+
 }

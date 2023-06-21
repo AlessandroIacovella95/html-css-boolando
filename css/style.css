@@ -151,14 +151,11 @@ footer .container h2{
     margin-bottom: 30px;
 }
 
-.second-img{
+ .first-img{
     position: absolute;
     top: 0;
     left: 0;
- }
-
- .first-img{
-    position: relative;
+    z-index: -1;
  }
  
 

@@ -135,17 +135,17 @@ footer .container h2{
     margin-bottom: 30px;
 }
 
-.first-img{
+.second-img{
     position: absolute;
     top: 0;
     left: 0;
  }
 
- .second-img{
+ .first-img{
     position: relative;
  }
  
 
-.card-media:hover .second-img{
+.card-media:hover .first-img{
     z-index: 1;
 }
